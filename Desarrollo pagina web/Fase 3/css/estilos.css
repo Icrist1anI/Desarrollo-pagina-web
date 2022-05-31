@@ -1,0 +1,39 @@
+header {
+
+    background-color: #33002f;
+    color: aliceblue;
+    text-align: center;
+}
+
+nav {
+
+    background-color: #a9c0ca;
+    color: rgb(56, 0, 44);
+}
+
+section {
+
+    background-color: #ecbfea;
+    grid-column: 1/4;
+    color: rgb(7, 0, 44);
+   
+}
+
+aside {
+
+    background-color: #ffffff;
+    grid-column: 4/5;
+    color: rgb(0, 0, 0);
+}
+
+footer {
+
+    background-color: #9e9e62;
+    text-align: center;
+    color: rgb(0, 7, 5);
+}
+
+main {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr ;
+}
